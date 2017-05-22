@@ -7,8 +7,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The file run_analysis.R contains code to Merges the training and the test sets to create one data set callled Data.Extracts only the measurements on the mean and standard deviation for each measurement.Uses descriptive activity names to name the activities in the data set. Appropriately labels the data set with descriptive variable names. Creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 First get working directory by command getwd()
+
 Place the run_analysis.R in the working directory obtained from previous command
+
 set source to run_analysis.R by command source(run_analysis.R) It will create a txt file "tidyData.txt" in same folder
+
 use command TidyData <- read.table("tidyData.txt") to read the newly created txt file. use str(TidyData) to obtain summary of data its a data.frame':	181 obs. of  68 variables:
 
 
